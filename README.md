@@ -43,9 +43,9 @@ We have provided pre-trained classifiers for MNIST and SVHN datasets under ```ex
 ### Set Hyperparameters
 
 The overall loss function is
-$$
+```math
 \mathcal L=\lambda_d \mathbb{E}(||X-\hat{X}||^2) + \lambda_p W_1(p_X,p_{\hat{X}})+\lambda_c \text{CE}(s,\mathbf{\hat{s}}),
-$$
+```
 where $\lambda_d$, $\lambda_p$, and $\lambda_c$ are hyperparameters to control weights of distortion, perception, and cross-entropy losses, respectively. It should be specified by the variables ```Lambda_distortion```, ```Lambda_perception```, and ```Lambda_classification``` in the ```run_with_params.py```. You may refer the following choices of the hyperparameter to reproduce the results in the paper. 
 
 #### MNIST dataset
