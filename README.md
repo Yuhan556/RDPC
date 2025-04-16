@@ -7,7 +7,7 @@ This repository is partially based on the [PyTorch Code](https://github.com/zhan
 
 
 <p align="center">
-  <img src="./Figs/Network-s.pdf" width="700" />
+  <img src="/Figs/Network-s.pdf" width="700" />
 </p>
 
 ## Introduction
@@ -17,7 +17,7 @@ In this paper, we integrate traditional reconstruction tasks and generative task
 Specifically, we derived the *closed-form expressions* for both __rate-distortion-classification (RDC)__ and __rate-perception-classification (RPC)__ functions in binary and scalar Gaussian cases. We discussed the operational meaning of RDPC with common randomness and proved the convexity of the RDC function.  We also investigate the decisive role of the *source noise* towards the existence of tradeoffs in both lossy compression and signal restoration problems.
 
 <p align="center">
-  <img src="./Figs/RDC-PC-theory.pdf" width="700" />
+  <img src="/Figs/RDC-PC-theory.pdf" width="700" />
 </p>
 
 We conduct a series of experiments by implementing this DL-based image compression framework incorporating multiple tasks. The experimental outcomes validate our theoretical results on the RDC, RPC tradeoffs, as well as RPC with certain levels of distortion.
