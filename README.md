@@ -131,8 +131,8 @@ Nested folders will be created for each choice of $(\lambda_d, \lambda_c)$ or $(
   journal={IEEE Journal on Selected Areas in Communications}, 
   title={Task-Oriented Lossy Compression with Data, Perception, and Classification Constraints}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-1},
+  volume={43},
+  number={7},
+  pages={2635-2650},
   doi={10.1109/JSAC.2025.3559164}}
 ```
